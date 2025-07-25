@@ -39,6 +39,6 @@
   "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc",
   // Commands that run every time you attach to the container.
   // This ensures your local branches are up-to-date with the remote.
-  "postAttachCommand": "git pull --all",
+  "postAttachCommand": "git pull --all"
   // DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
 }
